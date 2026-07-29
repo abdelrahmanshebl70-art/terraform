@@ -1,0 +1,17 @@
+# Local .terraform directories
+.terraform*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash files
+crash.log
+crash.*.log
+
+# Exclude terraform.tfvars if it contains sensitive data
+*.tfvars
+*.tfvars.json
+
+# Ignore backup files
+*.bak
