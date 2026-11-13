@@ -13,7 +13,7 @@ resource "aws_db_instance" "mysql_db" {
   
   db_name                = "retailedgedb"
   username               = "adminuser"
-  password               = "SuperSecurePassword123" 
+  password               = var.db_password
   
   multi_az               = false
   storage_encrypted      = false
